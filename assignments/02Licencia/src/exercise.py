@@ -9,6 +9,8 @@ def main():
             print("No cumples requisitos")
         else:
             print("Respuesta incorrecta")
+    elif edad<0:
+        print("Valor no válido")
     else:
         print("No cumples requisitos")
 
