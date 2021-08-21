@@ -9,10 +9,11 @@ def main():
             print("No cumples requisitos")
         else:
             print("Respuesta incorrecta")
-    elif edad<0:
-            print("Respuesta incorrecta")
     else:
-        print("No cumples requisitos")
+        if edad<0:
+            print("Respuesta incorrecta")
+        else:
+            print("No cumples requisitos")
 
 if __name__ == '__main__':
     main()
