@@ -10,10 +10,10 @@ def main():
         else:
             print("Respuesta incorrecta")
     else:
-        if edad<0:
-            print("Respuesta incorrecta")
-        else:
+        if edad>=0 and edad<18:
             print("No cumples requisitos")
+        else:
+            print("Respuesta incorrecta")
 
 if __name__ == '__main__':
     main()
